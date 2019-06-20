@@ -1,0 +1,15 @@
+Steps :-
+---------
+1) select 2 points i.e. source & destination
+2) add source lat long in another assoc. array
+3) check minimum distance with source
+
+  if values is less then add lat long values in array
+  again assoc array become size n-1.
+4) now it is source point
+check
+if last node lat long is equals to the source point 
+then 
+  add it in array then stop & return array to polyline method.
+else
+  step 3.
